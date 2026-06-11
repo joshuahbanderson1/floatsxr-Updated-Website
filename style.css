@@ -25,3 +25,42 @@ ul{
 .logo span{
     color:blue;
 }
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    padding:0 80px;
+}
+
+.hero h1{
+    font-size:80px;
+    line-height:1.0;
+}
+
+.hero span{
+    color:blue;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero p{
+    margin-top:30px;
+    font-size:18px;
+    color:white;
+    line-height:1.6;
+    max-width:500px;
+}
+
+.hero button{
+    margin-top:30px;
+    background:blue;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
