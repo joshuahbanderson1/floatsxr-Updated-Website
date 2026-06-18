@@ -184,8 +184,50 @@ nav a:hover{
     line-height:1.6;
 }
 
-.footer-inner{
-    padding-left:0;
+/* FOOTER */
+
+.footer{
+    margin-top:40px;
+    padding:80px 8%;
+    border-top:1px solid rgba(255,255,255,.08);
+    background:#071426;
+}
+
+.footer-content{
+    max-width:1400px;
+    margin:0 auto;
+
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+
+    gap:20px;
+}
+
+.footer-logo{
+    font-size:2.5rem;
+}
+
+.footer-nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:24px;
+}
+
+.footer-nav a{
+    text-decoration:none;
+    color:#ffffff;
+    transition:.3s;
+}
+
+.footer-nav a:hover{
+    color:#2563eb;
+}
+
+.footer-text{
+    color:#60a5fa;
+    font-size:.9rem;
+    line-height:1.6;
 }
 
 /* RESPONSIVE */
