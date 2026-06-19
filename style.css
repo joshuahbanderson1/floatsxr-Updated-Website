@@ -235,6 +235,27 @@ nav a:hover{
     max-width:260px;
 }
 
+/* WHY CHOOSE */
+
+.why-list{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+
+.why-item strong{
+    display:block;
+    color:#fff;
+    font-size:1rem;
+    margin-bottom:4px;
+}
+
+.why-item p{
+    color:#93c5fd;
+    font-size:.85rem;
+    line-height:1.6;
+}
+
 /* FOOTER */
 
 .footer{
