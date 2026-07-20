@@ -191,7 +191,6 @@ nav a:hover{
     content:'';
     position:absolute;
     inset:0;
-    background:rgba(7,20,38,.15);
     z-index:1;
     transition:.4s;
 }
@@ -209,7 +208,6 @@ nav a:hover{
 .slanted-card:not(:hover){
     flex:.7;
     max-width:300px;
-    opacity:.50;
 }
 
 .slanted-inner{
