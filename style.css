@@ -209,6 +209,7 @@ nav a:hover{
 .slanted-card:not(:hover){
     flex:.7;
     max-width:300px;
+    opacity:.15;
 }
 
 .slanted-inner{
